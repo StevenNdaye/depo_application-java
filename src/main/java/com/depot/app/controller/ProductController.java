@@ -19,10 +19,9 @@ public class ProductController {
 
     @RequestMapping(value = "/", method = RequestMethod.GET)
     public String listProducts(ModelMap modelMap){
-        modelMap.addAttribute("product", new Product());
         modelMap.addAttribute("productList", productManager.getAllProducts());
 
-        return "editProductList";
+        return "products";
     }
 
     @RequestMapping(value = "/add", method = RequestMethod.POST)
@@ -36,6 +35,13 @@ public class ProductController {
         productManager.deleteProduct(productId);
         return "redirect:/";
     }
+
+    @RequestMapping(value = "/new", method = RequestMethod.GET)
+    public String addNewProduct(ModelMap modelMap){
+        modelMap.addAttribute("product", new Product());
+        return "editProductList";
+    }
+
 
     public void setProductManager(ProductManager productManager) {
         this.productManager = productManager;

@@ -35,29 +35,5 @@
     </tr>
 </table>
 </form:form>
-
-
-<h3>Products</h3>
-<c:if  test="${!empty productList}">
-<table class="data">
-<tr>
-    <th>Title</th>
-    <th>Description</th>
-    <th>Image URL</th>
-    <th>Price</th>
-    <th></th>
-</tr>
-<c:forEach items="${productList}" var="prod">
-    <tr>
-        <td>${prod.title} </td>
-        <td>${prod.description}</td>
-        <td>${prod.imageUrl}</td>
-        <td>${prod.price}</td>
-        <td><a href="delete/${prod.id}">delete</a></td>
-    </tr>
-</c:forEach>
-</table>
-</c:if>
-
 </body>
 </html>
