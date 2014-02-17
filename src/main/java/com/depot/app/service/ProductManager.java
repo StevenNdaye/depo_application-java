@@ -10,4 +10,6 @@ public interface ProductManager {
     public void deleteProduct(Integer productId);
 
     public Product getProduct(Integer id);
+
+    public void updateProduct(Product product);
 }

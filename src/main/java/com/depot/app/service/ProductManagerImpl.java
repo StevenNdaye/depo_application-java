@@ -38,6 +38,12 @@ public class ProductManagerImpl implements ProductManager{
         return productDAO.getProduct(id);
     }
 
+    @Override
+    @Transactional
+    public void updateProduct(Product product) {
+        productDAO.updateProduct(product);
+    }
+
     public void setProductDAO(ProductDAO productDAO) {
         this.productDAO = productDAO;
     }

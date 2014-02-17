@@ -9,9 +9,9 @@
 
 <h2>Your Pragmatic Catalog</h2>
 
-<form:form method="post" action="edit" commandName="product">
+<form:form method="post" action="" commandName="product">
     <%@include file="productTable.jsp" %>
-    <input type="submit" value="<spring:message code="label.edit"/>"/>
+    <input type="submit" value="<spring:message code="label.update"/>"/>
 </form:form>
 </body>
 </html>

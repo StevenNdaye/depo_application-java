@@ -38,4 +38,9 @@ public class ProductDAOImpl implements ProductDAO{
         return (Product) this.sessionFactory.getCurrentSession().createQuery("from Product where id =" + id).list().get(0);
     }
 
+    @Override
+    public void updateProduct(Product product) {
+        this.sessionFactory.getCurrentSession().update(product);
+    }
+
 }

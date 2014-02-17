@@ -45,6 +45,13 @@ public class ProductController {
         return "editProduct";
     }
 
+    @RequestMapping(value = "/edit/{productId}", method = RequestMethod.POST)
+    public String updateProduct(@PathVariable("productId") Integer productId, @ModelAttribute(value = "product") Product product, BindingResult result){
+        product.setId(productId);
+        productManager.updateProduct(product);
+        return "redirect:/";
+    }
+
     public void setProductManager(ProductManager productManager) {
         this.productManager = productManager;
     }
