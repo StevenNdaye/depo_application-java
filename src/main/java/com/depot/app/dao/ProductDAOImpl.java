@@ -26,9 +26,16 @@ public class ProductDAOImpl implements ProductDAO{
 
     @Override
     public void deleteProduct(Integer productId) {
-        Product product = (Product)sessionFactory.getCurrentSession().load(Product.class,productId);
+        Product product = (Product)this.sessionFactory.getCurrentSession().load(Product.class,productId);
         if(null != product){
             this.sessionFactory.getCurrentSession().delete(product);
         }
     }
+
+    @SuppressWarnings("unchecked")
+    @Override
+    public Product getProduct(Integer id){
+        return (Product) this.sessionFactory.getCurrentSession().createQuery("from Product where id =" + id).list().get(0);
+    }
+
 }

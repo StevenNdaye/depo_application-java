@@ -23,6 +23,7 @@
         <td>${prod.imageUrl}</td>
         <td>${prod.price}</td>
         <td><a href="delete/${prod.id}">delete</a></td>
+        <td><a href="edit/${prod.id}">edit</a></td>
     </tr>
 </c:forEach>
 </table>

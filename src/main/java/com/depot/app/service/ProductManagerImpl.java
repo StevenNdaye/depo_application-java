@@ -32,6 +32,12 @@ public class ProductManagerImpl implements ProductManager{
         productDAO.deleteProduct(productId);
     }
 
+    @Override
+    @Transactional
+    public Product getProduct(Integer id){
+        return productDAO.getProduct(id);
+    }
+
     public void setProductDAO(ProductDAO productDAO) {
         this.productDAO = productDAO;
     }
