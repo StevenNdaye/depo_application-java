@@ -22,7 +22,6 @@ public class ProductController {
     @RequestMapping(value = "/", method = RequestMethod.GET)
     public String listProducts(ModelMap modelMap){
         modelMap.addAttribute("productList", productManager.getAllProducts());
-
         return "listProducts";
     }
 
@@ -41,7 +40,7 @@ public class ProductController {
     @RequestMapping(value = "/new", method = RequestMethod.GET)
     public String addNewProduct(ModelMap modelMap){
         modelMap.addAttribute("product", new Product());
-        return "addProduct";
+        return "addProductTile";
     }
 
     @RequestMapping(value = "edit/{productId}")
@@ -51,7 +50,8 @@ public class ProductController {
     }
 
     @RequestMapping(value = "/edit/{productId}", method = RequestMethod.POST)
-    public String updateProduct(@PathVariable("productId") Integer productId, @ModelAttribute(value = "product") Product product, BindingResult result){
+    public String updateProduct(@PathVariable("productId") Integer productId,
+                                @ModelAttribute(value = "product") Product product, BindingResult result){
         product.setId(productId);
         productManager.updateProduct(product);
         return "redirect:/";

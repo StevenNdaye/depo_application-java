@@ -10,4 +10,9 @@
         <put-attribute name="pageTitle" value="Products" />
         <put-attribute name="body" value="/WEB-INF/views/products.jsp" />
     </definition>
+
+    <definition name = "addProductTile" extends="master">
+        <put-attribute name="pageTitle" value="Your Pragmatic Catalog" />
+        <put-attribute name="body" value="/WEB-INF/views/addProduct.jsp" />
+    </definition>
 </tiles-definitions>
