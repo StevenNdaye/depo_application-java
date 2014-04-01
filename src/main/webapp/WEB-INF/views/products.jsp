@@ -1,14 +1,8 @@
 <%@taglib uri="http://www.springframework.org/tags" prefix="spring"%>
-<%@taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
-<html>
-<head>
-    <title></title>
-</head>
-<body>
 <h3>Products</h3>
 <c:if  test="${!empty productList}">
-<table class="data">
+<table class="data table table-hover">
 <tr>
     <th>Title</th>
     <th>Description</th>
@@ -29,5 +23,3 @@
 </table>
 <a href="new">New Product</a>
 </c:if>
-</body>
-</html>

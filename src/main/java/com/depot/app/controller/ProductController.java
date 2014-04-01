@@ -2,23 +2,28 @@ package com.depot.app.controller;
 
 import com.depot.app.model.Product;
 import com.depot.app.service.ProductManager;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.validation.BindingResult;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 
 @Controller
 public class ProductController {
 
-    @Autowired
-    ProductManager productManager;
+    private ProductManager productManager;
+
+    public ProductController(ProductManager productManager){
+        this.productManager = productManager;
+    }
 
     @RequestMapping(value = "/", method = RequestMethod.GET)
     public String listProducts(ModelMap modelMap){
         modelMap.addAttribute("productList", productManager.getAllProducts());
 
-        return "products";
+        return "listProducts";
     }
 
     @RequestMapping(value = "/add", method = RequestMethod.POST)
@@ -50,9 +55,5 @@ public class ProductController {
         product.setId(productId);
         productManager.updateProduct(product);
         return "redirect:/";
-    }
-
-    public void setProductManager(ProductManager productManager) {
-        this.productManager = productManager;
     }
 }
