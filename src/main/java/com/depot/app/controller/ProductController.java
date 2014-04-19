@@ -40,7 +40,7 @@ public class ProductController {
     @RequestMapping(value = "/new", method = RequestMethod.GET)
     public String addNewProduct(ModelMap modelMap){
         modelMap.addAttribute("product", new Product());
-        return "addProductTile";
+        return "addProductTitle";
     }
 
     @RequestMapping(value = "edit/{productId}")

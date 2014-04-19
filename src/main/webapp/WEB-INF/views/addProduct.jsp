@@ -1,7 +1,7 @@
 <%@taglib uri="http://www.springframework.org/tags" prefix="spring"%>
 <%@taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
 
-<h2>Your Pragmatic Catalog</h2>
+<h2 class="page-header">Your Pragmatic Catalog</h2>
 
 <form:form method="post" action="add" commandName="product"
             class="form-horizontal" role="form">
