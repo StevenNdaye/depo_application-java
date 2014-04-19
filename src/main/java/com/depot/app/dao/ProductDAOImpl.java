@@ -32,6 +32,7 @@ public class ProductDAOImpl implements ProductDAO{
         }
     }
 
+
     @SuppressWarnings("unchecked")
     @Override
     public Product getProduct(Integer id){

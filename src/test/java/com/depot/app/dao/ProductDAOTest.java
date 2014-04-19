@@ -1,4 +1,4 @@
-package com.depot.app.service;
+package com.depot.app.dao;
 
 import com.depot.app.model.Product;
 import org.junit.Test;
@@ -16,20 +16,22 @@ import java.util.List;
 import static org.hamcrest.Matchers.is;
 import static org.junit.Assert.assertThat;
 
+
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration("file:src/test/resources/test-application-context.xml")
 @Transactional
 @TransactionConfiguration
 @DirtiesContext(classMode = DirtiesContext.ClassMode.AFTER_EACH_TEST_METHOD)
-public class ProductManagerTest {
+public class ProductDAOTest{
 
     @Autowired
-    private ProductManager productManager;
+    private ProductDAO productDAO;
 
     @Test
     public void itShouldAddAndGetAProduct(){
-        productManager.addProduct(createProduct());
-        Product product = productManager.getProduct(1);
+
+        productDAO.addProduct(createProduct());
+        Product product = productDAO.getProduct(1);
 
         assertThat(product.getDescription(), is("Product Description"));
         assertThat(product.getImageUrl(), is("Product Image Url"));
@@ -37,13 +39,12 @@ public class ProductManagerTest {
         assertThat(product.getTitle(), is("Product Title"));
     }
 
-
     @Test
     public void itShouldAddTwoProductsAndGetThem(){
 
-        productManager.addProduct(createProduct());
-        productManager.addProduct(createProduct());
-        List<Product> productList = productManager.getAllProducts();
+        productDAO.addProduct(createProduct());
+        productDAO.addProduct(createProduct());
+        List<Product> productList = productDAO.getAllProducts();
 
         for (Product aProductList : productList) {
             assertThat(aProductList.getDescription(), is("Product Description"));
@@ -55,19 +56,19 @@ public class ProductManagerTest {
 
     @Test
     public void itShouldAddAndDeleteAProduct(){
-        productManager.addProduct(createProduct());
-        assertThat(productManager.getAllProducts().size(), is(1));
-        productManager.deleteProduct(1);
-        assertThat(productManager.getAllProducts().size(), is(0));
+        productDAO.addProduct(createProduct());
+        assertThat(productDAO.getAllProducts().size(), is(1));
+        productDAO.deleteProduct(1);
+        assertThat(productDAO.getAllProducts().size(), is(0));
     }
 
     @Test
     public void itShouldUpdateProduct(){
-        productManager.addProduct(createProduct());
-        Product product = productManager.getProduct(1);
+        productDAO.addProduct(createProduct());
+        Product product = productDAO.getProduct(1);
         assertThat(product.getDescription(), is("Product Description"));
         product.setDescription("Updated Product Description");
-        productManager.updateProduct(product);
+        productDAO.updateProduct(product);
         assertThat(product.getDescription(), is("Updated Product Description"));
     }
 
@@ -79,4 +80,5 @@ public class ProductManagerTest {
         product.setTitle("Product Title");
         return product;
     }
+
 }
