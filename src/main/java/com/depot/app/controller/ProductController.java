@@ -40,13 +40,13 @@ public class ProductController {
     @RequestMapping(value = "/new", method = RequestMethod.GET)
     public String addNewProduct(ModelMap modelMap){
         modelMap.addAttribute("product", new Product());
-        return "addProductTitle";
+        return "addProductPage";
     }
 
     @RequestMapping(value = "edit/{productId}")
     public String showEditPage(@PathVariable("productId") Integer id, ModelMap modelMap){
         modelMap.addAttribute("product", productManager.getProduct(id));
-        return "editProduct";
+        return "editProductPage";
     }
 
     @RequestMapping(value = "/edit/{productId}", method = RequestMethod.POST)

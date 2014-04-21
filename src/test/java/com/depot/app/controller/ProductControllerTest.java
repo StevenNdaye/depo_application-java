@@ -60,7 +60,7 @@ public class ProductControllerTest {
     public void itShouldShowViewToCreateNewProduct(){
         viewName = productController.addNewProduct(modelMap);
 
-        assertThat(viewName, is("addProductTitle"));
+        assertThat(viewName, is("addProductPage"));
         assertTrue(modelMap.containsKey(PRODUCT_KEY));
         assertThat((Product) modelMap.get(PRODUCT_KEY), is(new Product()));
     }
@@ -72,7 +72,7 @@ public class ProductControllerTest {
         ModelMap modelMap = new ModelMap();
         viewName = productController.showEditPage(PRODUCT_ID, modelMap);
 
-        assertThat(viewName, is("editProduct"));
+        assertThat(viewName, is("editProductPage"));
         assertTrue(modelMap.containsKey(PRODUCT_KEY));
         assertThat((Product) modelMap.get(PRODUCT_KEY), is(new Product()));
         verify(productManager).getProduct(PRODUCT_ID);

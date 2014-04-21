@@ -11,8 +11,12 @@
         <put-attribute name="body" value="/WEB-INF/views/products.jsp" />
     </definition>
 
-    <definition name = "addProductTitle" extends="master">
+    <definition name = "addProductPage" extends="master">
         <put-attribute name="pageTitle" value="Your Pragmatic Catalog" />
         <put-attribute name="body" value="/WEB-INF/views/addProduct.jsp" />
+    </definition>
+    <definition name = "editProductPage" extends="master">
+        <put-attribute name="pageTitle" value="Your Pragmatic Catalog" />
+        <put-attribute name="body" value="/WEB-INF/views/editProduct.jsp" />
     </definition>
 </tiles-definitions>
