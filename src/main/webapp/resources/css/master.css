@@ -1,0 +1,54 @@
+#banner {
+  background: #B0E2FF;
+  padding: 10px;
+  border-bottom: 2px solid;
+  font: small-caps 40px/40px "Times New Roman", serif;
+  color: #428bca;
+  text-align: center;
+}
+
+body {
+    padding-top:5px;
+    padding-left:5px;
+    padding-right:5px;
+    padding-bottom:5px;
+}
+
+#columns {
+    background: #428bca;
+}
+
+#main {
+    margin-left: 17em;
+    padding: 1em;
+    background: white;
+}
+
+#side {
+    float: left;
+    padding: 1em 2em;
+    width: 13em;
+    background: #428bca;
+}
+
+.table>tbody>tr>th, .table>tbody>tr>td {
+    border-top: none;
+}
+
+li{
+    list-style: none;
+    text-decoration: underline;
+}
+ul{
+    padding: 0;
+}
+#columns #side ul li a {
+    color: #B0E2FF;
+    font-size:125%;
+}
+
+.login_msg{
+  color : white;
+  padding-top: 15px;
+  font-size: 125%;
+}
