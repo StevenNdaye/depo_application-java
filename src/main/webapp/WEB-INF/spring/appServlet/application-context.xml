@@ -83,4 +83,5 @@
     <bean id="productController" class="com.depot.app.controller.ProductController">
         <constructor-arg index="0" ref="productManager"/>
     </bean>
+
 </beans>
