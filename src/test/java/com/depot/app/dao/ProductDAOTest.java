@@ -74,6 +74,7 @@ public class ProductDAOTest{
 
     private Product createProduct() {
         Product product = new Product();
+
         product.setDescription("Product Description");
         product.setImageUrl("Product Image Url");
         product.setPrice(new BigDecimal(100));
