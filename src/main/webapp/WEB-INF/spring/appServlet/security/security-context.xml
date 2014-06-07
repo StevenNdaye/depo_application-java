@@ -11,7 +11,7 @@
         <security:form-login
                 login-page="/login"
                 default-target-url="/welcome"
-                authentication-failure-url="/loginfailed"/>
+                authentication-failure-url="/loginError"/>
         <security:remember-me />
         <security:logout logout-success-url="/logout" />
     </security:http>
