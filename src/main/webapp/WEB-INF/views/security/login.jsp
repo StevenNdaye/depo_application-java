@@ -2,7 +2,7 @@
 <%@taglib uri="http://www.springframework.org/tags" prefix="spring"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 
-<c:url var="postLoginUrl" value="/j_spring_security_check" />
+<c:url var="postLoginUrl" value="${request.contextPath}/j_spring_security_check" />
 
 <form class="form-horizontal" role="form" action="${postLoginUrl}" method="post">
     <c:if test="${not empty error}">
