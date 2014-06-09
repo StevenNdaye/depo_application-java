@@ -8,7 +8,7 @@
     <c:if test="${not empty error}">
         <p class="bg-danger">Your login attempt failed. Please try again.</p>
     </c:if>
-  <h1><small>Please log in</small></h1>
+  <h2 class="page-header">Please log in</h2>
   <div class="form-group" style="height: 30px;">
     <label for="username" class="col-sm-2 control-label">Username</label>
     <div class="col-sm-10">

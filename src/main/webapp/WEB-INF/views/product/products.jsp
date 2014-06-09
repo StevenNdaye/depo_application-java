@@ -32,15 +32,9 @@
                             <td class="col-xs-2 pull-left"></td>
                             <td class="col-xs-10 pull-right">
                                 <button type="submit" class="btn btn-primary"><spring:message code="label.addToCard"/></button>
+                                <a class="btn btn-warning" href="delete/${prod.id}">Delete</a>
+                                <a class="btn btn-warning" href="edit/${prod.id}">Edit</a>
                             </td>
-                        </tr>
-                        <tr>
-                            <td class="col-xs-2 pull-left"></td>
-                            <td class="col-xs-10 pull-right"><a href="delete/${prod.id}">delete</a></td>
-                        </tr>
-                        <tr>
-                            <td class="col-xs-2 pull-left"></td>
-                            <td class="col-xs-10 pull-right"><a href="edit/${prod.id}">edit</a></td>
                         </tr>
                     </table>
                     </fieldset>

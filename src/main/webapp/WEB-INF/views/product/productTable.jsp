@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 
-<div class="form-group">
+<div class="form-group" style="height: 32px;">
     <form:label path="title" class="col-xs-2 control-label pull-left">
     <spring:message code="label.title"/></form:label>
     <div class="col-xs-10">

@@ -21,7 +21,7 @@
         <authentication-provider>
             <jdbc-user-service data-source-ref="dataSource"
                                users-by-username-query="select username, password, active_flag from depot_users where username=?"
-                               authorities-by-username-query="select l.username, r.role from depot_users l, authorizations r where l.user_id = r.user_id and l.username =?" />
+                               authorities-by-username-query="select l.username, r.role from depot_users l, authorizations r where l.user_id = r. and l.username =?" />
         </authentication-provider>
     </authentication-manager>
 
