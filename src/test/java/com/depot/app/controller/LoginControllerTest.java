@@ -37,7 +37,7 @@ public class LoginControllerTest{
 
     @Test
     public void itShouldLogoutAndReturnToLoginPage(){
-        assertThat(loginController.logout(), is("login"));
+        assertThat(loginController.logout(), is("redirect:/"));
     }
 
 }

@@ -69,40 +69,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Product.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/depot/app/model/Product.java">
+      <file leaf-file-name="AccountDetailsAdapter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/depot/app/model/AccountDetailsAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="41" selection-start="517" selection-end="517" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="975">
+            <state line="31" column="4" selection-start="989" selection-end="989" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="990">
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1646#1664#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user_table_creation_roll_back.sql" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/migration/user_table_creation_roll_back.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="64" selection-start="389" selection-end="389" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="security-context.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/appServlet/security/security-context.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="25" selection-start="1298" selection-end="1298" vertical-scroll-proportion="0.8737864" vertical-offset="0" max-vertical-offset="510">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user_table_creation_roll_forward.sql" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/migration/user_table_creation_roll_forward.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="11" selection-start="1243" selection-end="1243" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="690">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -110,84 +84,33 @@
       <file leaf-file-name="Account.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/depot/app/model/Account.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="98" column="86" selection-start="2274" selection-end="2274" vertical-scroll-proportion="0.0" vertical-offset="257" max-vertical-offset="1860">
+            <state line="13" column="13" selection-start="374" selection-end="374" vertical-scroll-proportion="0.0" vertical-offset="109" max-vertical-offset="1320">
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#569#575#0" expanded="true" />
-                <element signature="e#699#700#0" expanded="true" />
-                <element signature="e#724#725#0" expanded="true" />
-                <element signature="e#768#769#0" expanded="true" />
-                <element signature="e#796#797#0" expanded="true" />
-                <element signature="e#866#867#0" expanded="true" />
-                <element signature="e#898#899#0" expanded="true" />
-                <element signature="e#948#949#0" expanded="true" />
-                <element signature="e#990#991#0" expanded="true" />
-                <element signature="e#1057#1058#0" expanded="true" />
-                <element signature="e#1088#1089#0" expanded="true" />
-                <element signature="e#1136#1137#0" expanded="true" />
-                <element signature="e#1176#1177#0" expanded="true" />
-                <element signature="e#1242#1243#0" expanded="true" />
-                <element signature="e#1273#1274#0" expanded="true" />
-                <element signature="e#1321#1322#0" expanded="true" />
-                <element signature="e#1361#1362#0" expanded="true" />
-                <element signature="e#1427#1428#0" expanded="true" />
-                <element signature="e#1458#1459#0" expanded="true" />
-                <element signature="e#1506#1507#0" expanded="true" />
-                <element signature="e#1546#1547#0" expanded="true" />
-                <element signature="e#1606#1607#0" expanded="true" />
-                <element signature="e#1634#1635#0" expanded="true" />
-                <element signature="e#1676#1677#0" expanded="true" />
-                <element signature="e#1710#1711#0" expanded="true" />
-                <element signature="e#1783#1784#0" expanded="true" />
-                <element signature="e#1817#1818#0" expanded="true" />
-                <element signature="e#1871#1872#0" expanded="true" />
-                <element signature="e#1917#1918#0" expanded="true" />
-                <element signature="e#1988#1989#0" expanded="true" />
-                <element signature="e#2021#2022#0" expanded="true" />
-                <element signature="e#2074#2075#0" expanded="true" />
-                <element signature="e#2118#2119#0" expanded="true" />
-                <element signature="e#2413#2414#0" expanded="true" />
-                <element signature="e#2441#2442#0" expanded="true" />
-                <element signature="e#2493#2494#0" expanded="true" />
-                <element signature="e#2527#2528#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Role.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/depot/app/model/Role.java">
+      <file leaf-file-name="AccountDetailsAdapterTest.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/depot/app/model/AccountDetailsAdapterTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="58" selection-start="363" selection-end="363" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
-              <folding>
-                <element signature="e#348#349#0" expanded="true" />
-                <element signature="e#361#362#0" expanded="true" />
-                <element signature="e#368#395#0" expanded="true" />
-                <element signature="e#431#432#0" expanded="true" />
-                <element signature="e#447#448#0" expanded="true" />
-                <element signature="e#478#479#0" expanded="true" />
-                <element signature="e#493#494#0" expanded="true" />
-                <element signature="e#533#534#0" expanded="true" />
-                <element signature="e#553#554#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AccountDetailsAdapter.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/depot/app/model/AccountDetailsAdapter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="67" selection-start="1639" selection-end="1639" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="930">
+            <state line="40" column="42" selection-start="1556" selection-end="1556" vertical-scroll-proportion="0.9068323" vertical-offset="162" max-vertical-offset="750">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#308#335#0" expanded="true" />
-                <element signature="e#566#567#0" expanded="true" />
-                <element signature="e#584#585#0" expanded="true" />
-                <element signature="e#974#975#0" expanded="true" />
-                <element signature="e#993#994#0" expanded="true" />
-                <element signature="e#1041#1042#0" expanded="true" />
-                <element signature="e#1069#1070#0" expanded="true" />
-                <element signature="e#1503#1521#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AccountFactory.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/depot/app/model/AccountFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="37" selection-start="548" selection-end="548" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#785#791#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -203,7 +126,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jdbc.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/depot/app/helper/AbstractTimestampEntity.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/editProductList.jsp" />
@@ -232,7 +154,6 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/security/welcome.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/tiles.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/depot/app/dao/ProductDAOTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/depot/app/controller/LoginControllerTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/migration/user_roll_forward.sql" />
         <option value="$PROJECT_DIR$/src/main/resources/migration/user_roll_back.sql" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/appServlet/application-context.xml" />
@@ -249,10 +170,13 @@
         <option value="$PROJECT_DIR$/src/main/java/com/depot/app/model/Product.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/depot/app/model/Role.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/depot/app/model/Account.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/depot/app/model/AccountDetailsAdapter.java" />
         <option value="$PROJECT_DIR$/src/main/resources/migration/user_table_creation_roll_forward.sql" />
         <option value="$PROJECT_DIR$/src/main/resources/migration/user_table_creation_roll_back.sql" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/appServlet/security/security-context.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/depot/app/controller/LoginControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/depot/app/model/AccountFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/depot/app/model/AccountDetailsAdapter.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/depot/app/model/AccountDetailsAdapterTest.java" />
       </list>
     </option>
   </component>
@@ -289,16 +213,64 @@
             <id>Android Lint</id>
           </State>
           <State>
+            <id>Class metrics</id>
+          </State>
+          <State>
+            <id>Cloning issues</id>
+          </State>
+          <State>
+            <id>Code style issues</id>
+          </State>
+          <State>
+            <id>Control FlowGroovy</id>
+          </State>
+          <State>
+            <id>Control flow issues</id>
+          </State>
+          <State>
             <id>General</id>
           </State>
           <State>
-            <id>Maven</id>
+            <id>Groovy</id>
+          </State>
+          <State>
+            <id>IntelliJ IDEA Platform Inspections</id>
+          </State>
+          <State>
+            <id>JavaBeans issues</id>
+          </State>
+          <State>
+            <id>JavaFX</id>
+          </State>
+          <State>
+            <id>Javadoc issues</id>
+          </State>
+          <State>
+            <id>Performance issues</id>
           </State>
           <State>
             <id>Plugin DevKit</id>
           </State>
           <State>
-            <id>XPath</id>
+            <id>Portability issues</id>
+          </State>
+          <State>
+            <id>Probable bugs</id>
+          </State>
+          <State>
+            <id>Probable bugsGroovy</id>
+          </State>
+          <State>
+            <id>Properties Files</id>
+          </State>
+          <State>
+            <id>Serialization issues</id>
+          </State>
+          <State>
+            <id>Threading issues</id>
+          </State>
+          <State>
+            <id>XSLT</id>
           </State>
         </expanded-state>
       </profile-state>
@@ -468,36 +440,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DepotApplication" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DepotApplication" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -557,51 +499,7 @@
       <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/appServlet" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.LoginControllerTest (1)">
-    <configuration default="false" name="All in DepotApplication (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="DepotApplication" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="package" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="All in DepotApplication (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="DepotApplication" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="package" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.AccountDetailsAdapterTest">
     <configuration default="false" name="All in DepotApplication (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DepotApplication" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -654,6 +552,50 @@
       <option name="MAIN_CLASS_NAME" value="com.depot.app.controller.LoginControllerTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="AccountDetailsAdapterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DepotApplication" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.depot.app.model" />
+      <option name="MAIN_CLASS_NAME" value="com.depot.app.model.AccountDetailsAdapterTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="AccountDetailsAdapterTest.itShouldCreateAccountDetailsAdapter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DepotApplication" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.depot.app.model" />
+      <option name="MAIN_CLASS_NAME" value="com.depot.app.model.AccountDetailsAdapterTest" />
+      <option name="METHOD_NAME" value="itShouldCreateAccountDetailsAdapter" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -836,19 +778,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.All in DepotApplication (1)" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.All in DepotApplication (2)" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.All in DepotApplication (3)" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.LoginControllerTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.LoginControllerTest (1)" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.All in DepotApplication (3)" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.LoginControllerTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.LoginControllerTest (1)" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.AccountDetailsAdapterTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.AccountDetailsAdapterTest.itShouldCreateAccountDetailsAdapter" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.LoginControllerTest (1)" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.LoginControllerTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.All in DepotApplication (3)" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.All in DepotApplication (2)" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.All in DepotApplication (1)" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.AccountDetailsAdapterTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.AccountDetailsAdapterTest.itShouldCreateAccountDetailsAdapter" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.LoginControllerTest (1)" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.LoginControllerTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.All in DepotApplication (3)" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -910,21 +852,21 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32577905" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32577905" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297568" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32719547" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963988" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17310444" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32577905" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3286119" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297568" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297568" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17310444" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27620396" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27620396" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32729805" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32577905" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297568" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38915664" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -973,11 +915,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/log4j/log4j/1.2.15/log4j-1.2.15.jar!/org/apache/log4j/Logger.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="19" selection-start="935" selection-end="935" vertical-scroll-proportion="0.76744187" vertical-offset="0" max-vertical-offset="435" />
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/3.6.3.Final/hibernate-core-3.6.3.Final.jar!/org/hibernate/impl/SessionFactoryImpl.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="83" column="41" selection-start="5689" selection-end="5689" vertical-scroll-proportion="-5.88" vertical-offset="1083" max-vertical-offset="3735" />
@@ -1089,15 +1026,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="60" column="13" selection-start="1978" selection-end="1978" vertical-scroll-proportion="0.0" vertical-offset="435" max-vertical-offset="1395">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/depot/app/controller/LoginControllerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="33" selection-start="529" selection-end="529" vertical-scroll-proportion="0.65217394" vertical-offset="0" max-vertical-offset="735">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1244,16 +1172,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/depot/app/model/AccountTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="42" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/migration/user_table_creation_roll_forward.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="11" selection-start="1243" selection-end="1243" vertical-scroll-proportion="0.0" vertical-offset="137" max-vertical-offset="690">
+        <state line="37" column="11" selection-start="1243" selection-end="1243" vertical-scroll-proportion="1.2388393" vertical-offset="0" max-vertical-offset="690">
           <folding />
         </state>
       </provider>
@@ -1274,55 +1195,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/depot/app/model/Account.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="98" column="86" selection-start="2274" selection-end="2274" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1860">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#569#575#0" expanded="true" />
-            <element signature="e#699#700#0" expanded="true" />
-            <element signature="e#724#725#0" expanded="true" />
-            <element signature="e#768#769#0" expanded="true" />
-            <element signature="e#796#797#0" expanded="true" />
-            <element signature="e#866#867#0" expanded="true" />
-            <element signature="e#898#899#0" expanded="true" />
-            <element signature="e#948#949#0" expanded="true" />
-            <element signature="e#990#991#0" expanded="true" />
-            <element signature="e#1057#1058#0" expanded="true" />
-            <element signature="e#1088#1089#0" expanded="true" />
-            <element signature="e#1136#1137#0" expanded="true" />
-            <element signature="e#1176#1177#0" expanded="true" />
-            <element signature="e#1242#1243#0" expanded="true" />
-            <element signature="e#1273#1274#0" expanded="true" />
-            <element signature="e#1321#1322#0" expanded="true" />
-            <element signature="e#1361#1362#0" expanded="true" />
-            <element signature="e#1427#1428#0" expanded="true" />
-            <element signature="e#1458#1459#0" expanded="true" />
-            <element signature="e#1506#1507#0" expanded="true" />
-            <element signature="e#1546#1547#0" expanded="true" />
-            <element signature="e#1606#1607#0" expanded="true" />
-            <element signature="e#1634#1635#0" expanded="true" />
-            <element signature="e#1676#1677#0" expanded="true" />
-            <element signature="e#1710#1711#0" expanded="true" />
-            <element signature="e#1783#1784#0" expanded="true" />
-            <element signature="e#1817#1818#0" expanded="true" />
-            <element signature="e#1871#1872#0" expanded="true" />
-            <element signature="e#1917#1918#0" expanded="true" />
-            <element signature="e#1988#1989#0" expanded="true" />
-            <element signature="e#2021#2022#0" expanded="true" />
-            <element signature="e#2074#2075#0" expanded="true" />
-            <element signature="e#2118#2119#0" expanded="true" />
-            <element signature="e#2413#2414#0" expanded="true" />
-            <element signature="e#2441#2442#0" expanded="true" />
-            <element signature="e#2493#2494#0" expanded="true" />
-            <element signature="e#2527#2528#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/depot/app/model/Role.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="58" selection-start="363" selection-end="363" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
+        <state line="16" column="58" selection-start="363" selection-end="363" vertical-scroll-proportion="0.53571427" vertical-offset="0" max-vertical-offset="450">
           <folding>
             <element signature="e#348#349#0" expanded="true" />
             <element signature="e#361#362#0" expanded="true" />
@@ -1337,27 +1212,56 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/appServlet/security/security-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="25" selection-start="1298" selection-end="1298" vertical-scroll-proportion="0.82758623" vertical-offset="0" max-vertical-offset="510">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/depot/app/controller/LoginControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="60" selection-start="1109" selection-end="1109" vertical-scroll-proportion="0.7204969" vertical-offset="177" max-vertical-offset="660">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/depot/app/model/AccountDetailsAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="67" selection-start="1639" selection-end="1639" vertical-scroll-proportion="0.0" vertical-offset="435" max-vertical-offset="930">
+        <state line="31" column="4" selection-start="989" selection-end="989" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="990">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#308#335#0" expanded="true" />
-            <element signature="e#566#567#0" expanded="true" />
-            <element signature="e#584#585#0" expanded="true" />
-            <element signature="e#974#975#0" expanded="true" />
-            <element signature="e#993#994#0" expanded="true" />
-            <element signature="e#1041#1042#0" expanded="true" />
-            <element signature="e#1069#1070#0" expanded="true" />
-            <element signature="e#1503#1521#0" expanded="true" />
+            <element signature="e#1646#1664#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/appServlet/security/security-context.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/depot/app/model/AccountFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="25" selection-start="1298" selection-end="1298" vertical-scroll-proportion="0.8737864" vertical-offset="0" max-vertical-offset="510">
-          <folding />
+        <state line="18" column="37" selection-start="548" selection-end="548" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#785#791#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/depot/app/model/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="13" selection-start="374" selection-end="374" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="1320">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#569#575#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/depot/app/model/AccountDetailsAdapterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="42" selection-start="1556" selection-end="1556" vertical-scroll-proportion="0.9068323" vertical-offset="162" max-vertical-offset="750">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

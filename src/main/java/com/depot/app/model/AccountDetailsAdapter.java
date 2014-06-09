@@ -26,6 +26,10 @@ public class AccountDetailsAdapter implements UserDetails {
 
     public String getEmail() { return account.getEmail(); }
 
+    public String getPhoneNumber() { return account.getPhoneNumber(); }
+
+    public boolean isFlagActive() { return account.isActiveFlag(); }
+
     @Override
     public String getUsername() { return account.getUserName(); }
 
