@@ -74,9 +74,14 @@
         <property name="sessionFactory" ref="sessionFactory"></property>
     </bean>
 
+    <bean id = "jdbcTemplate" class="org.springframework.core.JdbcTemplate" p:dataSource-ref="dataSource" />
+
     <context:annotation-config />
     <context:component-scan base-package="com.depot.app.controller" />
     <bean id="productDao" class="com.depot.app.dao.ProductDAOImpl"></bean>
+    <bean id="accountDetailsDao" class="com.depot.app.dao.AccountDetailsDaoImpl">
+        <constructor-arg index="0" ref="jdbcTemplate"/>
+    </bean>
     <bean id="productManager" class="com.depot.app.service.ProductManagerImpl">
     </bean>
 
