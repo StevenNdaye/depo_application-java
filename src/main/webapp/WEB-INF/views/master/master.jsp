@@ -18,6 +18,7 @@
                 <li><a href=""><spring:message code="side.news"/>   </a></li>
                 <li><a href=""><spring:message code="side.contact"/></a></li>
                 <li><a href="<c:url value="/login" />"><spring:message code="side.login"/></a></li>
+                <li><a href="<c:url value="/logout" />"><spring:message code="side.logout"/></a></li>
                 <li><a href=""><spring:message code="side.register"/></a></li>
               </ul>
         </div>
