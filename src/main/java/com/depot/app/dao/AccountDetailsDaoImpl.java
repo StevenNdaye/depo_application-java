@@ -9,6 +9,10 @@ public class AccountDetailsDaoImpl implements AccountDetailsDao{
     private JdbcTemplate jdbcTemplate;
     private static final String FIND_PASSWORD_SQL = "select password from account where username = ?";
 
+    //Important for the test to pass. Do not remove
+    public AccountDetailsDaoImpl() {
+    }
+
     public AccountDetailsDaoImpl(JdbcTemplate jdbcTemplate) {
         this.jdbcTemplate = jdbcTemplate;
     }
