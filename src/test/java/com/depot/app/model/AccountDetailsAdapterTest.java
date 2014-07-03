@@ -29,6 +29,7 @@ public class AccountDetailsAdapterTest {
         assertTrue(accountDetailsAdapter.isFlagActive());
         assertEquals("firstName", accountDetailsAdapter.getFirstName());
         assertEquals("lastName", accountDetailsAdapter.getLastName());
+        assertEquals("firstName lastName", accountDetailsAdapter.getFullName());
         assertEquals("email@email.com", accountDetailsAdapter.getEmail());
         assertEquals("password", accountDetailsAdapter.getPassword());
         assertEquals("phoneNumber", accountDetailsAdapter.getPhoneNumber());

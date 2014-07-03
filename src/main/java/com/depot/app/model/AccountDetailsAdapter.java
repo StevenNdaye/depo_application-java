@@ -28,6 +28,7 @@ public class AccountDetailsAdapter implements UserDetails {
 
     public String getPhoneNumber() { return account.getPhoneNumber(); }
 
+
     public boolean isFlagActive() { return account.isActiveFlag(); }
 
     @Override
@@ -57,5 +58,9 @@ public class AccountDetailsAdapter implements UserDetails {
             authorities.add(new GrantedAuthorityImpl(role.getName()));
         }
         return authorities;
+    }
+
+    public String getFullName() {
+        return account.getFirstName()+ " " +account.getLastName();
     }
 }
