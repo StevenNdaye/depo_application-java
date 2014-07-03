@@ -6,5 +6,7 @@
 <hibernate-configuration>
     <session-factory>
         <mapping class="com.depot.app.model.Product"></mapping>
+        <mapping class="com.depot.app.model.Account"></mapping>
+        <mapping class="com.depot.app.model.Role"></mapping>
     </session-factory>
 </hibernate-configuration>

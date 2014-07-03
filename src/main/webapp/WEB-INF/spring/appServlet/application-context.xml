@@ -52,7 +52,7 @@
           p:password="${jdbc.password}"></bean>
 
     <bean id="sessionFactory"
-          class="org.springframework.orm.hibernate3.LocalSessionFactoryBean">
+          class="org.springframework.orm.hibernate3.annotation.AnnotationSessionFactoryBean">
         <property name="dataSource" ref="dataSource"></property>
         <property name="configLocation">
             <value>classpath:hibernate.cfg.xml</value>
@@ -78,11 +78,27 @@
 
     <context:annotation-config />
     <context:component-scan base-package="com.depot.app.controller" />
-    <bean id="productDao" class="com.depot.app.dao.ProductDAOImpl"></bean>
-    <bean id="accountDetailsDao" class="com.depot.app.dao.AccountDetailsDaoImpl">
+
+    <bean id="productDao" class="com.depot.app.dao.impl.ProductDAOImpl"></bean>
+
+    <bean id="accountDetailsDao" class="com.depot.app.dao.impl.AccountDetailsDaoImpl">
         <constructor-arg index="0" ref="jdbcTemplate"/>
     </bean>
-    <bean id="productManager" class="com.depot.app.service.ProductManagerImpl">
+    <bean id="accountDao" class="com.depot.app.dao.impl.AccountDaoImpl">
+        <constructor-arg index="0" ref="jdbcTemplate" />
+    </bean>
+    <bean id="roleDao" class="com.depot.app.dao.impl.RoleDaoImpl" />
+
+    <bean id="productManager" class="com.depot.app.service.impl.ProductManagerImpl"></bean>
+
+    <bean id="accountDetailsService" class="com.depot.app.service.impl.AccountDetailsServiceImpl">
+        <constructor-arg index="0" ref="accountDao" />
+        <constructor-arg index="1" ref="roleDao" />
+    </bean>
+
+    <bean id="accountDetailsServiceAdapter" class="com.depot.app.service.impl.AccountDetailsServiceAdapter">
+        <constructor-arg index="0" ref="accountDetailsService" />
+        <constructor-arg index="1" ref="accountDetailsDao" />
     </bean>
 
     <bean id="productController" class="com.depot.app.controller.ProductController">

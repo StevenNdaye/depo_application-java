@@ -1,7 +1,8 @@
-package com.depot.app.service;
+package com.depot.app.service.impl;
 
 import com.depot.app.dao.ProductDAO;
 import com.depot.app.model.Product;
+import com.depot.app.service.ProductManager;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -9,7 +10,7 @@ import org.springframework.transaction.annotation.Transactional;
 import java.util.List;
 
 @Service
-public class ProductManagerImpl implements ProductManager{
+public class ProductManagerImpl implements ProductManager {
 
     @Autowired
     private ProductDAO productDAO;

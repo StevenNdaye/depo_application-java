@@ -1,5 +1,6 @@
-package com.depot.app.dao;
+package com.depot.app.dao.impl;
 
+import com.depot.app.dao.ProductDAO;
 import com.depot.app.model.Product;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -8,7 +9,7 @@ import org.springframework.stereotype.Repository;
 import java.util.List;
 
 @Repository
-public class ProductDAOImpl implements ProductDAO{
+public class ProductDAOImpl implements ProductDAO {
 
     @Autowired
     private SessionFactory sessionFactory;

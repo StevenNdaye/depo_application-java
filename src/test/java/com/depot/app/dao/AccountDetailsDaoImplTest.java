@@ -1,5 +1,6 @@
 package com.depot.app.dao;
 
+import com.depot.app.dao.impl.AccountDetailsDaoImpl;
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mock;

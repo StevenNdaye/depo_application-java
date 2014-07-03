@@ -1,10 +1,11 @@
-package com.depot.app.dao;
+package com.depot.app.dao.impl;
 
+import com.depot.app.dao.AccountDetailsDao;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public class AccountDetailsDaoImpl implements AccountDetailsDao{
+public class AccountDetailsDaoImpl implements AccountDetailsDao {
 
     private JdbcTemplate jdbcTemplate;
     private static final String FIND_PASSWORD_SQL = "select password from account where username = ?";
