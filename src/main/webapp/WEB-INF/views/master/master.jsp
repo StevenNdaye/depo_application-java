@@ -15,7 +15,7 @@
     <div id="columns">
         <div id="side" >
               <ul>
-                <li><a href=""><spring:message code="side.home"/></a></li>
+                <li><a href="<c:url value="/" />"><spring:message code="side.home"/></a></li>
                 <li><a href=""><spring:message code="side.questions"/></a></li>
                 <li><a href=""><spring:message code="side.news"/>   </a></li>
                 <li><a href=""><spring:message code="side.contact"/></a></li>

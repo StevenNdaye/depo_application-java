@@ -13,7 +13,7 @@
                 default-target-url="/welcome"
                 authentication-failure-url="/loginError"/>
         <remember-me />
-        <logout logout-success-url="/logout" />
+        <logout logout-url="/logout" logout-success-url="/?logout_successful=1"/>
     </http>
 
 
