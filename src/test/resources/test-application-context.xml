@@ -38,23 +38,10 @@
 
     <bean id = "jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate" p:dataSource-ref="dataSource" />
 
-    <bean id="accountDetailsDao" class="com.depot.app.dao.impl.AccountDetailsDaoImpl">
-        <constructor-arg index="0" ref="jdbcTemplate"/>
-    </bean>
-    <bean id="accountDao" class="com.depot.app.dao.impl.AccountDaoImpl">
-        <constructor-arg index="0" ref="jdbcTemplate" />
-    </bean>
-    <bean id="roleDao" class="com.depot.app.dao.impl.RoleDaoImpl" />
-
-    <bean id="accountDetailsService" class="com.depot.app.service.impl.AccountDetailsServiceImpl">
-        <constructor-arg index="0" ref="accountDao" />
-        <constructor-arg index="1" ref="roleDao" />
-    </bean>
     <bean id="accountDetailsServiceAdapter" class="com.depot.app.service.impl.AccountDetailsServiceAdapter">
-        <constructor-arg index="0" ref="accountDetailsService" />
-        <constructor-arg index="1" ref="accountDetailsDao" />
+        <constructor-arg ref="accountDetailsServiceImpl" />
+        <constructor-arg ref="accountDetailsDaoImpl" />
     </bean>
-
-    <context:component-scan base-package="com.depot.app.dao" />
-    <context:component-scan base-package="com.depot.app.service" />
+    <context:annotation-config />
+    <context:component-scan base-package="com.depot.app" />
 </beans>
