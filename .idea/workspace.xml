@@ -87,10 +87,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="contact.jsp" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="contact.jsp" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/contact_us/contact.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="28" selection-start="39" selection-end="39" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="120">
+            <state line="10" column="38" selection-start="406" selection-end="406" vertical-scroll-proportion="0.35885167" vertical-offset="0" max-vertical-offset="525">
               <folding />
             </state>
           </provider>
@@ -145,10 +145,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="products.jsp" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="products.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/product/products.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="16" selection-start="2646" selection-end="2646" vertical-scroll-proportion="1.8301436" vertical-offset="0" max-vertical-offset="930">
+            <state line="51" column="16" selection-start="2646" selection-end="2646" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="930">
               <folding />
             </state>
           </provider>
@@ -1272,16 +1272,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/contact_us/contact.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/product/products.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="28" selection-start="39" selection-end="39" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="120">
+        <state line="51" column="16" selection-start="2646" selection-end="2646" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="930">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/product/products.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/contact_us/contact.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="16" selection-start="2646" selection-end="2646" vertical-scroll-proportion="1.8301436" vertical-offset="0" max-vertical-offset="930">
+        <state line="10" column="38" selection-start="406" selection-end="406" vertical-scroll-proportion="0.35885167" vertical-offset="0" max-vertical-offset="525">
           <folding />
         </state>
       </provider>
