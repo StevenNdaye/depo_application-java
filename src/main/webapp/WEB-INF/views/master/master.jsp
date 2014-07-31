@@ -1,6 +1,8 @@
 <%@ taglib uri="http://tiles.apache.org/tags-tiles" prefix="tiles" %>
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <%@taglib uri="http://www.springframework.org/tags" prefix="spring"%>
+<%@ taglib prefix="security" uri="http://www.springframework.org/security/tags" %>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,8 +19,15 @@
                 <li><a href=""><spring:message code="side.questions"/></a></li>
                 <li><a href=""><spring:message code="side.news"/>   </a></li>
                 <li><a href=""><spring:message code="side.contact"/></a></li>
-                <li><a href="<c:url value="/login" />"><spring:message code="side.login"/></a></li>
-                <li><a href="<c:url value="/logout" />"><spring:message code="side.logout"/></a></li>
+
+                <security:authorize access="!isAuthenticated()">
+                    <li><a href="<c:url value="/login" />"><spring:message code="side.login"/></a></li>
+                </security:authorize>
+
+                <security:authorize access="isAuthenticated()">
+                    <li><a href="<c:url value="/logout" />"><spring:message code="side.logout"/></a></li>
+                </security:authorize>
+
                 <li><a href=""><spring:message code="side.register"/></a></li>
               </ul>
         </div>

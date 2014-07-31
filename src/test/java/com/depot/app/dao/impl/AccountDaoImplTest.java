@@ -15,16 +15,20 @@ import static org.mockito.Mockito.*;
 
 public class AccountDaoImplTest {
 
+    private static final String PASSWORD = "password";
+    public static final String USERNAME = "username";
     private JdbcTemplate jdbcTemplate;
     private AbstractDao abstractDao;
     private AccountDao accountDao;
     private Session session;
     private Query query;
+    private Query insideQuery;
+    private Object object;
     private SessionFactory sessionFactory;
     private static final String UPDATE_PASSWORD_SQL = "update account set password = ? where username = ?";
 
     private Account account = new Account(){{
-       setUserName("Username");
+       setUserName(USERNAME);
     }};
     private org.hibernate.classic.Session sessionOther;
 
@@ -36,25 +40,27 @@ public class AccountDaoImplTest {
         query = mock(Query.class);
         sessionFactory = mock(SessionFactory.class);
         sessionOther = mock(org.hibernate.classic.Session.class);
+        insideQuery = mock(Query.class);
+        object = mock(Query.class);
         accountDao = new AccountDaoImpl(jdbcTemplate);
     }
 
     @Test
     public void itShouldCreateAccount(){
-        accountDao.create(account, "password");
-        verify(jdbcTemplate).update(UPDATE_PASSWORD_SQL, "password", account.getUserName());
+        accountDao.create(account, PASSWORD);
+        verify(jdbcTemplate).update(UPDATE_PASSWORD_SQL, PASSWORD, account.getUserName());
     }
 
     @Test
     @Ignore
     public void itShouldFindAccountByUsername() {
-        String username = "username";
         when(sessionFactory.getCurrentSession()).thenReturn(sessionOther);
         when(abstractDao.getSession()).thenReturn(session);
         when(session.getNamedQuery("findAccountByUsername")).thenReturn(query);
-        when(query.setParameter("username", username).uniqueResult()).thenReturn(new Object());
+        when(query.setParameter("username", USERNAME)).thenReturn(insideQuery);
+        when(insideQuery.uniqueResult()).thenReturn(object);
 
-        Account account = accountDao.findByUsername(username);
-        assertEquals("username", account.getUserName());
+        Account account = accountDao.findByUsername(USERNAME);
+        assertEquals(USERNAME, account.getUserName());
     }
 }

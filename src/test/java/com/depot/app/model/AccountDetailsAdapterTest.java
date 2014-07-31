@@ -4,6 +4,9 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
+import java.util.ArrayList;
+import java.util.Collection;
+
 import static org.junit.Assert.*;
 
 public class AccountDetailsAdapterTest {
@@ -15,8 +18,17 @@ public class AccountDetailsAdapterTest {
     @Before
     public void setUp() {
         this.account = accountFactory.getAccount();
+        account.setRoles(getRoles());
         accountDetailsAdapter = new AccountDetailsAdapter(account);
         accountDetailsAdapter.setPassword("password");
+    }
+
+    private Collection<Role> getRoles() {
+        Collection<Role> roles = new ArrayList<Role>();
+        Role role  = new Role();
+        role.setName("admin");
+        roles.add(role);
+        return roles;
     }
 
     @Test
@@ -34,6 +46,11 @@ public class AccountDetailsAdapterTest {
         assertEquals("password", accountDetailsAdapter.getPassword());
         assertEquals("phoneNumber", accountDetailsAdapter.getPhoneNumber());
         assertEquals(1, accountDetailsAdapter.getAuthorities().size());
+    }
+
+    @Test
+    public void itShouldAssertThatUserIsAdmin(){
+        assertTrue(accountDetailsAdapter.isAdmin());
     }
 
     @After

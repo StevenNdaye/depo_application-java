@@ -63,4 +63,14 @@ public class AccountDetailsAdapter implements UserDetails {
     public String getFullName() {
         return account.getFirstName()+ " " +account.getLastName();
     }
+
+    public boolean isAdmin() {
+        Collection<Role> accountRoles = account.getRoles();
+        for (Role role : accountRoles) {
+            if(role.getName().equals("admin")){
+                return true;
+            }
+        }
+        return false;
+    }
 }

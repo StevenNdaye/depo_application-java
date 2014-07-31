@@ -4,6 +4,7 @@ import com.depot.app.dao.AccountDao;
 import com.depot.app.model.Account;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;
 
@@ -19,6 +20,7 @@ public class AccountDaoImpl extends AbstractDao<Account> implements AccountDao{
     public AccountDaoImpl() {
     }
 
+    @Autowired
     public AccountDaoImpl(JdbcTemplate jdbcTemplate) {
         this.jdbcTemplate = jdbcTemplate;
     }

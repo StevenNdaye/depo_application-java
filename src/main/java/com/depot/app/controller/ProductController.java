@@ -2,6 +2,7 @@ package com.depot.app.controller;
 
 import com.depot.app.model.Product;
 import com.depot.app.service.ProductManager;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.validation.BindingResult;
@@ -15,6 +16,7 @@ public class ProductController {
 
     private ProductManager productManager;
 
+    @Autowired
     public ProductController(ProductManager productManager){
         this.productManager = productManager;
     }

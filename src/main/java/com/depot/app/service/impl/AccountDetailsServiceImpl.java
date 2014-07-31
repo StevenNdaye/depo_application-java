@@ -8,15 +8,16 @@ import com.depot.app.service.AccountDetailsService;
 import org.hibernate.Hibernate;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.stereotype.Service;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.validation.Errors;
 
 import java.util.HashSet;
 import java.util.Set;
 
-@Service
 @Transactional(readOnly = true)
+@Component
 public class AccountDetailsServiceImpl implements AccountDetailsService {
 
     private static final Logger logger = LoggerFactory.getLogger(AccountDetailsServiceImpl.class);
@@ -27,6 +28,7 @@ public class AccountDetailsServiceImpl implements AccountDetailsService {
     public AccountDetailsServiceImpl() {
     }
 
+    @Autowired
     public AccountDetailsServiceImpl(AccountDao accountDao, RoleDao roleDao) {
         this.accountDao = accountDao;
         this.roleDao = roleDao;

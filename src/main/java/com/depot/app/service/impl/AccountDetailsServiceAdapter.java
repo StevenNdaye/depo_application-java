@@ -4,6 +4,8 @@ import com.depot.app.dao.AccountDetailsDao;
 import com.depot.app.model.Account;
 import com.depot.app.model.AccountDetailsAdapter;
 import com.depot.app.service.AccountDetailsService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.dao.DataAccessException;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
@@ -11,13 +13,17 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-@Service("accountDetailsServiceAdapter")
+@Service( "accountDetailsServiceAdapter")
 @Transactional(readOnly = true)
 public class AccountDetailsServiceAdapter implements UserDetailsService {
 
+    @Qualifier(value = "accountDetailsService")
     private AccountDetailsService accountDetailsService;
+
+    @Qualifier(value = "accountDetailsDao")
     private AccountDetailsDao accountDetailsDao;
 
+    @Autowired
     public AccountDetailsServiceAdapter(AccountDetailsService accountDetailsService, AccountDetailsDao accountDetailsDao) {
         this.accountDetailsService = accountDetailsService;
         this.accountDetailsDao = accountDetailsDao;

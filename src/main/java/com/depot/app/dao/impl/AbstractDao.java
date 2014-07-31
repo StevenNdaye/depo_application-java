@@ -17,7 +17,7 @@ public abstract class AbstractDao<T extends Object> implements Dao<T>{
     @Inject private SessionFactory sessionFactory;
     private Class<T> domainClass;
 
-    protected Session getSession(){
+    public Session getSession(){
         return sessionFactory.getCurrentSession();
     }
 
