@@ -29,4 +29,9 @@
         <put-attribute name="pageTitle" value="Welcome" />
         <put-attribute name="body" value="/WEB-INF/views/security/welcome.jsp"/>
     </definition>
+
+    <definition name = "contactForm" extends="master">
+        <put-attribute name="pageTitle" value="Contact us" />
+        <put-attribute name="body" value="/WEB-INF/views/contact_us/contact.jsp" />
+    </definition>
 </tiles-definitions>

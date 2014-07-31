@@ -69,15 +69,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="LoginController.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/depot/app/controller/LoginController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="28" selection-start="881" selection-end="881" vertical-scroll-proportion="0.0" vertical-offset="69" max-vertical-offset="510">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="security-context.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/appServlet/security/security-context.xml">
           <provider selected="true" editor-type-id="text-editor">
@@ -90,16 +81,74 @@
       <file leaf-file-name="master.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/master/master.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="44" selection-start="737" selection-end="737" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="690">
+            <state line="41" column="46" selection-start="1771" selection-end="1771" vertical-scroll-proportion="0.0" vertical-offset="242" max-vertical-offset="720">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="products.jsp" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="contact.jsp" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/contact_us/contact.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="4" selection-start="8" selection-end="8" vertical-scroll-proportion="0.035885166" vertical-offset="0" max-vertical-offset="418">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tiles.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/tiles.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="36" column="61" selection-start="1668" selection-end="1668" vertical-scroll-proportion="0.0" vertical-offset="167" max-vertical-offset="645">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FeedbackControllerTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/depot/app/controller/FeedbackControllerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="30" selection-start="442" selection-end="442" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProductControllerTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/depot/app/controller/ProductControllerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="46" column="13" selection-start="1572" selection-end="1572" vertical-scroll-proportion="0.0" vertical-offset="92" max-vertical-offset="1185">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FeedbackController.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/depot/app/controller/FeedbackController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="11" selection-start="397" selection-end="397" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="master.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/master.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="1" selection-start="134" selection-end="134" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1185">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="products.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/product/products.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="16" selection-start="2646" selection-end="2646" vertical-scroll-proportion="0.72789115" vertical-offset="444" max-vertical-offset="930">
+            <state line="51" column="16" selection-start="2646" selection-end="2646" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="930">
               <folding />
             </state>
           </provider>
@@ -124,12 +173,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/editProduct.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/addProduct.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/products.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/layout/master.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/security/security-context.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/tiles.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/depot/app/dao/ProductDAOTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/migration/user_roll_forward.sql" />
         <option value="$PROJECT_DIR$/src/main/resources/migration/user_roll_back.sql" />
@@ -173,8 +218,12 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/appServlet/application-context.xml" />
         <option value="$PROJECT_DIR$/src/test/resources/test-application-context.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/appServlet/security/security-context.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/master/master.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/product/products.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/tiles.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/depot/app/controller/FeedbackControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/depot/app/controller/FeedbackController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/master/master.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/contact_us/contact.jsp" />
       </list>
     </option>
   </component>
@@ -284,6 +333,66 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DepotApplication" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DepotApplication" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DepotApplication" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DepotApplication" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -300,6 +409,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DepotApplication" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DepotApplication" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -335,15 +470,15 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-      <recent name="junit.framework.TestCase" />
-    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.depot.app.dao.impl" />
       <recent name="com.depot.app.dao" />
       <recent name="com.depot.app.model" />
       <recent name="com.depot.app.controller" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+      <recent name="junit.framework.TestCase" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources/migration" />
@@ -352,8 +487,14 @@
       <recent name="$PROJECT_DIR$/src/main/java/com/depot/app/dao" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.depot.app.controller" />
       <recent name="com.depot.app.service.impl" />
       <recent name="com.depot.app.model" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.depot.app.model" />
+      <recent name="com.depot.app.dao" />
+      <recent name="com.depot.app.service" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/master" />
@@ -362,35 +503,8 @@
       <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/products" />
       <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/appServlet" />
     </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.depot.app.model" />
-      <recent name="com.depot.app.dao" />
-      <recent name="com.depot.app.service" />
-    </key>
   </component>
-  <component name="RunManager" selected="JUnit.AccountDetailsAdapterTest.itShouldAssertThatUserIsAdmin">
-    <configuration default="false" name="AccountDetailsAdapterTest.itShouldCreateAccountDetailsAdapter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="DepotApplication" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.depot.app.model" />
-      <option name="MAIN_CLASS_NAME" value="com.depot.app.model.AccountDetailsAdapterTest" />
-      <option name="METHOD_NAME" value="itShouldCreateAccountDetailsAdapter" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.FeedbackControllerTest.itShouldDisplayContactForm">
     <configuration default="false" name="AccountDaoImplTest.itShouldCreateAccount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DepotApplication" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -476,6 +590,28 @@
       <option name="PACKAGE_NAME" value="com.depot.app.model" />
       <option name="MAIN_CLASS_NAME" value="com.depot.app.model.AccountDetailsAdapterTest" />
       <option name="METHOD_NAME" value="itShouldAssertThatUserIsAdmin" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="FeedbackControllerTest.itShouldDisplayContactForm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DepotApplication" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.depot.app.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.depot.app.controller.FeedbackControllerTest" />
+      <option name="METHOD_NAME" value="itShouldDisplayContactForm" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -659,19 +795,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.AccountDetailsAdapterTest.itShouldCreateAccountDetailsAdapter" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.AccountDaoImplTest.itShouldCreateAccount" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.AccountDaoImplTest.itShouldFindAccountByUsername" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.AccountDaoImplTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.AccountDetailsAdapterTest.itShouldAssertThatUserIsAdmin" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.AccountDaoImplTest.itShouldCreateAccount" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.AccountDaoImplTest.itShouldFindAccountByUsername" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.AccountDaoImplTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.AccountDetailsAdapterTest.itShouldAssertThatUserIsAdmin" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.FeedbackControllerTest.itShouldDisplayContactForm" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.AccountDetailsAdapterTest.itShouldAssertThatUserIsAdmin" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.AccountDaoImplTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.AccountDaoImplTest.itShouldFindAccountByUsername" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.AccountDaoImplTest.itShouldCreateAccount" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.AccountDetailsAdapterTest.itShouldCreateAccountDetailsAdapter" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.FeedbackControllerTest.itShouldDisplayContactForm" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.AccountDetailsAdapterTest.itShouldAssertThatUserIsAdmin" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.AccountDaoImplTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.AccountDaoImplTest.itShouldFindAccountByUsername" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.AccountDaoImplTest.itShouldCreateAccount" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -796,26 +932,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/product/editProduct.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="50" selection-start="194" selection-end="194" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jdbc.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="17" selection-start="113" selection-end="163" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/messages_en.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="11" selection-start="401" selection-end="401" vertical-scroll-proportion="0.53571427" vertical-offset="0" max-vertical-offset="448" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/migration/user_table_creation_roll_forward.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="11" selection-start="1243" selection-end="1243" vertical-scroll-proportion="1.2388393" vertical-offset="0" max-vertical-offset="690" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/migration/user_table_creation_roll_back.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="64" selection-start="389" selection-end="389" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240" />
@@ -870,11 +986,6 @@
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/3.0.3.RELEASE/spring-security-core-3.0.3.RELEASE.jar!/org/springframework/security/core/userdetails/UserDetails.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="17" selection-start="533" selection-end="533" vertical-scroll-proportion="0.62211984" vertical-offset="0" max-vertical-offset="434" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/depot/app/controller/ProductControllerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="13" selection-start="2217" selection-end="2217" vertical-scroll-proportion="0.21784233" vertical-offset="675" max-vertical-offset="1185" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/depot/app/model/Product.java">
@@ -1094,13 +1205,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/master.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="42" selection-start="871" selection-end="871" vertical-scroll-proportion="0.9319728" vertical-offset="519" max-vertical-offset="1185">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/depot/app/controller/LoginController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="28" column="28" selection-start="881" selection-end="881" vertical-scroll-proportion="0.0" vertical-offset="69" max-vertical-offset="510">
@@ -1115,6 +1219,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/product/products.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="16" selection-start="2646" selection-end="2646" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="930">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/master.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="1" selection-start="134" selection-end="134" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1185">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/depot/app/controller/ProductControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="13" selection-start="1572" selection-end="1572" vertical-scroll-proportion="0.0" vertical-offset="92" max-vertical-offset="1185">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/tiles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="61" selection-start="1668" selection-end="1668" vertical-scroll-proportion="0.0" vertical-offset="167" max-vertical-offset="645">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/depot/app/controller/ProductController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="14" selection-start="14" selection-end="14" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="870">
@@ -1122,16 +1254,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/depot/app/controller/FeedbackControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="30" selection-start="442" selection-end="442" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/depot/app/controller/FeedbackController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="11" selection-start="397" selection-end="397" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/master/master.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="44" selection-start="737" selection-end="737" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="690">
+        <state line="41" column="46" selection-start="1771" selection-end="1771" vertical-scroll-proportion="0.0" vertical-offset="242" max-vertical-offset="720">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/product/products.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/contact_us/contact.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="16" selection-start="2646" selection-end="2646" vertical-scroll-proportion="0.72789115" vertical-offset="444" max-vertical-offset="930">
+        <state line="1" column="4" selection-start="8" selection-end="8" vertical-scroll-proportion="0.035885166" vertical-offset="0" max-vertical-offset="418">
           <folding />
         </state>
       </provider>
