@@ -47,5 +47,10 @@
             </div>
             </c:forEach>
         </c:if>
-        <a href="new">New Product</a>
+        <security:authorize access="isAuthenticated()">
+            <security:authorize access="hasRole('admin')">
+                <a href="new">New Product</a>
+            </security:authorize>
+        </security:authorize>
+
 </fieldset>

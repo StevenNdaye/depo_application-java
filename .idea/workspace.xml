@@ -87,10 +87,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="master.jsp" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="master.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/master/master.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="44" selection-start="737" selection-end="737" vertical-scroll-proportion="0.10204082" vertical-offset="210" max-vertical-offset="690">
+            <state line="17" column="44" selection-start="737" selection-end="737" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="690">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="products.jsp" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/product/products.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="51" column="16" selection-start="2646" selection-end="2646" vertical-scroll-proportion="0.72789115" vertical-offset="444" max-vertical-offset="930">
               <folding />
             </state>
           </provider>
@@ -163,9 +172,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/depot/app/service/AccountDetailsService.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/appServlet/application-context.xml" />
         <option value="$PROJECT_DIR$/src/test/resources/test-application-context.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/product/products.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/appServlet/security/security-context.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/master/master.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/product/products.jsp" />
       </list>
     </option>
   </component>
@@ -1078,13 +1087,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/product/products.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="0" selection-start="2565" selection-end="2565" vertical-scroll-proportion="0.9319728" vertical-offset="354" max-vertical-offset="855">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/product/productTable.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="31" selection-start="644" selection-end="644" vertical-scroll-proportion="0.47619048" vertical-offset="0" max-vertical-offset="585">
@@ -1122,7 +1124,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/master/master.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="44" selection-start="737" selection-end="737" vertical-scroll-proportion="0.10204082" vertical-offset="210" max-vertical-offset="690">
+        <state line="17" column="44" selection-start="737" selection-end="737" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="690">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/product/products.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="16" selection-start="2646" selection-end="2646" vertical-scroll-proportion="0.72789115" vertical-offset="444" max-vertical-offset="930">
           <folding />
         </state>
       </provider>
