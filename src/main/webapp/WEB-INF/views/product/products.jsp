@@ -1,6 +1,7 @@
-<%@taglib uri="http://www.springframework.org/tags" prefix="spring"%>
-<%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<%@ taglib uri="http://www.springframework.org/tags" prefix="spring"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
+<%@ taglib prefix="security" uri="http://www.springframework.org/security/tags" %>
 
 <fieldset class="col-xs-12">
 
@@ -32,8 +33,12 @@
                             <td class="col-xs-2 pull-left"></td>
                             <td class="col-xs-10 pull-right">
                                 <button type="submit" class="btn btn-primary"><spring:message code="label.addToCard"/></button>
-                                <a class="btn btn-warning" href="delete/${prod.id}">Delete</a>
-                                <a class="btn btn-warning" href="edit/${prod.id}">Edit</a>
+                                <security:authorize access="isAuthenticated()">
+                                    <security:authorize access="hasRole('admin')">
+                                        <a class="btn btn-warning" href="delete/${prod.id}">Delete</a>
+                                        <a class="btn btn-warning" href="edit/${prod.id}">Edit</a>
+                                    </security:authorize>
+                                </security:authorize>
                             </td>
                         </tr>
                     </table>

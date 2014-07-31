@@ -68,100 +68,7 @@
     <favorites_list name="DepotApplication" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="application-context.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/appServlet/application-context.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="72" column="36" selection-start="3434" selection-end="3434" vertical-scroll-proportion="2.5837321" vertical-offset="0" max-vertical-offset="1395">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test-application-context.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/test-application-context.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="33" selection-start="2170" selection-end="2170" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="795">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RoleDaoImpl.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/depot/app/dao/impl/RoleDaoImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="45" selection-start="262" selection-end="262" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="security-context.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/appServlet/security/security-context.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="56" selection-start="1042" selection-end="1042" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="540">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AccountDetailsServiceAdapter.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/depot/app/service/impl/AccountDetailsServiceAdapter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="95" selection-start="1032" selection-end="1032" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AccountDaoImpl.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/depot/app/dao/impl/AccountDaoImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="328" selection-end="328" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="585">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AccountDetailsDao.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/depot/app/dao/AccountDetailsDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="17" selection-start="27" selection-end="27" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AccountDetailsDaoImpl.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/depot/app/dao/impl/AccountDetailsDaoImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="0" selection-start="242" selection-end="242" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AccountDetailsServiceImpl.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/depot/app/service/impl/AccountDetailsServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="29" selection-start="633" selection-end="633" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="1110">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AccountDetailsService.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/depot/app/service/AccountDetailsService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="17" selection-start="114" selection-end="114" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -207,8 +114,6 @@
         <option value="$PROJECT_DIR$/src/test/java/com/depot/app/dao/impl/AccountDaoImplTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/depot/app/model/AccountDetailsAdapter.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/depot/app/model/AccountDetailsAdapterTest.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/product/products.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/master/master.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/depot/app/controller/ProductController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/depot/app/dao/AccountDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/depot/app/dao/impl/AccountDetailsDaoImpl.java" />
@@ -222,6 +127,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/depot/app/service/AccountDetailsService.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/appServlet/application-context.xml" />
         <option value="$PROJECT_DIR$/src/test/resources/test-application-context.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/master/master.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/product/products.jsp" />
       </list>
     </option>
   </component>
@@ -347,92 +254,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DepotApplication" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DepotApplication" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DepotApplication" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DepotApplication" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DepotApplication" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DepotApplication" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -860,7 +681,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="810" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -878,7 +699,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297568" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297568" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26967096" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26967096" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34679666" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3252551" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297568" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -976,16 +797,6 @@
             <element signature="imports" expanded="false" />
           </folding>
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/product/productTable.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="31" selection-start="119" selection-end="119" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="585" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/master.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="42" selection-start="871" selection-end="871" vertical-scroll-proportion="1.2301587" vertical-offset="0" max-vertical-offset="1185" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/depot/app/dao/Dao.java">
@@ -1123,20 +934,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/product/products.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="780">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/master/master.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="690">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/depot/app/model/Account.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="59" column="23" selection-start="1384" selection-end="1387" vertical-scroll-proportion="-5.0" vertical-offset="440" max-vertical-offset="1245">
@@ -1195,49 +992,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/depot/app/dao/impl/RoleDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="45" selection-start="262" selection-end="262" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
+        <state line="9" column="45" selection-start="262" selection-end="262" vertical-scroll-proportion="0.215311" vertical-offset="0" max-vertical-offset="418">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/appServlet/security/security-context.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="56" selection-start="1042" selection-end="1042" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="540">
+        <state line="21" column="56" selection-start="1042" selection-end="1042" vertical-scroll-proportion="0.44444445" vertical-offset="135" max-vertical-offset="540">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/depot/app/dao/impl/AccountDetailsDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="242" selection-end="242" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
+        <state line="7" column="0" selection-start="242" selection-end="242" vertical-scroll-proportion="0.13605443" vertical-offset="0" max-vertical-offset="450">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/depot/app/service/impl/AccountDetailsServiceAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="95" selection-start="1032" selection-end="1032" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
+        <state line="22" column="95" selection-start="1032" selection-end="1032" vertical-scroll-proportion="0.430622" vertical-offset="0" max-vertical-offset="570">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/depot/app/dao/impl/AccountDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="328" selection-end="328" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="585">
+        <state line="10" column="0" selection-start="328" selection-end="328" vertical-scroll-proportion="0.13605443" vertical-offset="0" max-vertical-offset="585">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/depot/app/dao/AccountDetailsDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="17" selection-start="27" selection-end="27" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
+        <state line="1" column="17" selection-start="27" selection-end="27" vertical-scroll-proportion="0.034013607" vertical-offset="0" max-vertical-offset="441">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/depot/app/service/impl/AccountDetailsServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="29" selection-start="633" selection-end="633" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="1110">
+        <state line="19" column="29" selection-start="633" selection-end="633" vertical-scroll-proportion="0.30612245" vertical-offset="150" max-vertical-offset="1110">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1246,14 +1043,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/depot/app/service/AccountDetailsService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="17" selection-start="114" selection-end="114" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
+        <state line="4" column="17" selection-start="114" selection-end="114" vertical-scroll-proportion="0.10204082" vertical-offset="0" max-vertical-offset="441">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/test-application-context.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="33" selection-start="2170" selection-end="2170" vertical-scroll-proportion="0.0" vertical-offset="317" max-vertical-offset="795">
+        <state line="44" column="33" selection-start="2170" selection-end="2170" vertical-scroll-proportion="1.5789474" vertical-offset="0" max-vertical-offset="795">
           <folding />
         </state>
       </provider>
@@ -1261,6 +1058,34 @@
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring/appServlet/application-context.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="72" column="36" selection-start="3434" selection-end="3434" vertical-scroll-proportion="2.5837321" vertical-offset="0" max-vertical-offset="1395">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/product/products.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="0" selection-start="2565" selection-end="2565" vertical-scroll-proportion="0.9319728" vertical-offset="354" max-vertical-offset="855">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/product/productTable.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="31" selection-start="644" selection-end="644" vertical-scroll-proportion="0.47619048" vertical-offset="0" max-vertical-offset="585">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/master.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="62" column="42" selection-start="871" selection-end="871" vertical-scroll-proportion="0.9319728" vertical-offset="519" max-vertical-offset="1185">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/master/master.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="205" selection-end="287" vertical-scroll-proportion="0.10204082" vertical-offset="0" max-vertical-offset="690">
           <folding />
         </state>
       </provider>
