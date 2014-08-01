@@ -43,6 +43,7 @@ public class FeedbackController {
             modelMap.addAttribute(MESSAGE, INVALID_MESSAGE);
             modelMap.addAttribute(CLASS, BG_DANGER);
         }
+
         return CONTACT_FORM;
     }
 }
