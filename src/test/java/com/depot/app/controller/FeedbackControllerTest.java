@@ -3,6 +3,8 @@ package com.depot.app.controller;
 import org.junit.Before;
 import org.junit.Test;
 
+import javax.servlet.ServletRequest;
+
 import static org.hamcrest.Matchers.is;
 import static org.junit.Assert.assertThat;
 

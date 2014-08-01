@@ -6,103 +6,10 @@
       <item index="0" class="java.lang.String" itemvalue="org.springframework.beans.factory.annotation.Autowired" />
     </list>
   </component>
-  <component name="GradleLocalSettings">
-    <option name="availableTasks">
-      <set>
-        <GradleTaskDescriptor>
-          <option name="description" value="Assembles the outputs of this project." />
-          <option name="name" value="assemble" />
-        </GradleTaskDescriptor>
-        <GradleTaskDescriptor>
-          <option name="description" value="Assembles and tests this project." />
-          <option name="name" value="build" />
-        </GradleTaskDescriptor>
-        <GradleTaskDescriptor>
-          <option name="description" value="Assembles and tests this project and all projects that depend on it." />
-          <option name="name" value="buildDependents" />
-        </GradleTaskDescriptor>
-        <GradleTaskDescriptor>
-          <option name="description" value="Assembles and tests this project and all projects it depends on." />
-          <option name="name" value="buildNeeded" />
-        </GradleTaskDescriptor>
-        <GradleTaskDescriptor>
-          <option name="description" value="Runs all checks." />
-          <option name="name" value="check" />
-        </GradleTaskDescriptor>
-        <GradleTaskDescriptor>
-          <option name="description" value="Assembles binary 'main'." />
-          <option name="name" value="classes" />
-        </GradleTaskDescriptor>
-        <GradleTaskDescriptor>
-          <option name="description" value="Deletes the build directory." />
-          <option name="name" value="clean" />
-        </GradleTaskDescriptor>
-        <GradleTaskDescriptor>
-          <option name="description" value="Compiles source set 'main:java'." />
-          <option name="name" value="compileJava" />
-        </GradleTaskDescriptor>
-        <GradleTaskDescriptor>
-          <option name="description" value="Compiles source set 'test:java'." />
-          <option name="name" value="compileTestJava" />
-        </GradleTaskDescriptor>
-        <GradleTaskDescriptor>
-          <option name="description" value="Installs the 'archives' artifacts into the local Maven repository." />
-          <option name="name" value="install" />
-        </GradleTaskDescriptor>
-        <GradleTaskDescriptor>
-          <option name="description" value="Assembles a jar archive containing the main classes." />
-          <option name="name" value="jar" />
-        </GradleTaskDescriptor>
-        <GradleTaskDescriptor>
-          <option name="description" value="Generates Javadoc API documentation for the main source code." />
-          <option name="name" value="javadoc" />
-        </GradleTaskDescriptor>
-        <GradleTaskDescriptor>
-          <option name="description" value="Processes source set 'main:resources'." />
-          <option name="name" value="processResources" />
-        </GradleTaskDescriptor>
-        <GradleTaskDescriptor>
-          <option name="description" value="Processes source set 'test:resources'." />
-          <option name="name" value="processTestResources" />
-        </GradleTaskDescriptor>
-        <GradleTaskDescriptor>
-          <option name="description" value="Initializes a new Gradle build. [incubating]" />
-          <option name="name" value="setupBuild" />
-        </GradleTaskDescriptor>
-        <GradleTaskDescriptor>
-          <option name="description" value="Runs the unit tests." />
-          <option name="name" value="test" />
-        </GradleTaskDescriptor>
-        <GradleTaskDescriptor>
-          <option name="description" value="Assembles binary 'test'." />
-          <option name="name" value="testClasses" />
-        </GradleTaskDescriptor>
-        <GradleTaskDescriptor>
-          <option name="description" value="Runs the JSP compiler and turns JSP pages into Java source." />
-          <option name="name" value="tomcatJasper" />
-        </GradleTaskDescriptor>
-        <GradleTaskDescriptor>
-          <option name="description" value="Uses your files as and where they are and deploys them to Tomcat." />
-          <option name="name" value="tomcatRun" />
-        </GradleTaskDescriptor>
-        <GradleTaskDescriptor>
-          <option name="description" value="Assembles the webapp into a war and deploys it to Tomcat." />
-          <option name="name" value="tomcatRunWar" />
-        </GradleTaskDescriptor>
-        <GradleTaskDescriptor>
-          <option name="description" value="Stops Tomcat." />
-          <option name="name" value="tomcatStop" />
-        </GradleTaskDescriptor>
-        <GradleTaskDescriptor>
-          <option name="description" value="Generates a war archive with all the compiled classes, the web-app content and the libraries." />
-          <option name="name" value="war" />
-        </GradleTaskDescriptor>
-        <GradleTaskDescriptor>
-          <option name="name" value="wrapper" />
-        </GradleTaskDescriptor>
-      </set>
-    </option>
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$" />
   </component>
+  <component name="IdProvider" IDEtalkID="CED687BF325F9FA4ABCE8EA25BBF333D" />
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>

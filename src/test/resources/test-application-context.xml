@@ -44,4 +44,7 @@
     </bean>
     <context:annotation-config />
     <context:component-scan base-package="com.depot.app" />
+    <bean id="reCaptcha" class="net.tanesha.recaptcha.ReCaptchaImpl">
+        <property name="privateKey" value="6Lem2vcSAAAAAFdeDYaqpcv-KC6XhJsFDh1hxvyy"></property>
+    </bean>
 </beans>

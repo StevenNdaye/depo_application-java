@@ -1,11 +1,19 @@
+<%@ taglib uri="http://www.springframework.org/tags" prefix="spring"%>
+<%@ taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
+<%@ taglib prefix="tags" tagdir="/WEB-INF/tags" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ page session="false" %>
+
 <fieldset>
     <legend>Please contact us</legend>
-
-    <form class="form-horizontal" role="form">
+    <p class="<c:out value="${class}"/>">
+        <strong><c:out value="${message}"/></strong>
+    </p>
+    <form class="form-horizontal" role="form" method="post" action="submitContactForm">
       <div class="form-group">
         <label for="full_name" class="col-sm-2 control-label">Full Name</label>
         <div class="col-sm-10">
-          <input type="text" class="form-control" id="full_name" placeholder="Full Name" required>
+          <input type="text" class="form-control" id="full_name" placeholder="Full Name" autofocus required>
         </div>
       </div>
       <div class="form-group has_error">
@@ -21,10 +29,19 @@
           </textarea>
         </div>
       </div>
+        <div class="form-group">
+            <label class="col-sm-2 control-label"></label>
+            <div class="col-sm-10">
+                <tags:captcha privateKey="6Lem2vcSAAAAAFdeDYaqpcv-KC6XhJsFDh1hxvyy"
+                              publicKey="6Lem2vcSAAAAAGuhNrFXaudIFM5oBaGlZONJoHqe">
+                </tags:captcha>
+            </div>
+        </div>
       <div class="form-group has_error">
         <div class="col-sm-offset-2 col-sm-10">
           <button type="submit" class="btn btn-primary">Send</button>
         </div>
       </div>
+
     </form>
 </fieldset>
