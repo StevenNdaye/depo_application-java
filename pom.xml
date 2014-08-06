@@ -201,7 +201,7 @@
         <dependency>
             <groupId>org.postgresql</groupId>
             <artifactId>postgresql</artifactId>
-            <version>9.2-1002-jdbc4</version>
+            <version>9.2-1003-jdbc4</version>
         </dependency>
 
 
@@ -338,6 +338,13 @@
             <artifactId>recaptcha4j</artifactId>
             <version>0.0.7</version>
         </dependency>
+
+        <dependency>
+            <groupId>javax.mail</groupId>
+            <artifactId>mail</artifactId>
+            <version>1.4.5</version>
+        </dependency>
+
 
     </dependencies>
     <build>

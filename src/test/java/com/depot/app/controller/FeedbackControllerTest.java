@@ -5,7 +5,9 @@ import net.tanesha.recaptcha.ReCaptchaResponse;
 import net.tanesha.recaptcha.http.HttpLoader;
 import org.junit.Before;
 import org.junit.Test;
+import org.springframework.ui.ModelMap;
 
+import java.util.HashMap;
 import java.util.Properties;
 
 import static org.hamcrest.Matchers.is;
@@ -33,7 +35,7 @@ public class FeedbackControllerTest {
     }
     @Test
     public void itShouldDisplayContactForm(){
-        String viewName = feedbackController.contactUs();
+        String viewName = feedbackController.contactUs(new ModelMap());
         assertThat(viewName, is("contactForm"));
     }
 

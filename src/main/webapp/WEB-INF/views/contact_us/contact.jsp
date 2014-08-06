@@ -9,23 +9,26 @@
     <p class="<c:out value="${class}"/>">
         <strong><c:out value="${message}"/></strong>
     </p>
-    <form class="form-horizontal" role="form" method="post" action="submitContactForm">
+    <form:form class="form-horizontal" role="form" method="post" action="submitContactForm" modelAttribute="feedback">
       <div class="form-group">
         <label for="full_name" class="col-sm-2 control-label">Full Name</label>
         <div class="col-sm-10">
-          <input type="text" class="form-control" id="full_name" placeholder="Full Name" autofocus required>
+          <form:input type="text" class="form-control" id="full_name" placeholder="Full Name" autofocus="autofocus"
+                      required="required"  path="fullName"/>
         </div>
       </div>
       <div class="form-group has_error">
         <label for="user_email" class="col-sm-2 control-label">Email</label>
         <div class="col-sm-10">
-          <input type="email" class="form-control" id="user_email" placeholder="Email" required>
+          <form:input type="email" class="form-control" id="user_email" placeholder="Email" required="required"
+                      path="email"/>
         </div>
       </div>
       <div class="form-group has_error">
         <label for="user_comment" class="col-sm-2 control-label">Comments</label>
         <div class="col-sm-10">
-          <textarea class="form-control" rows="3" id="user_comment" placeholder="Comments, questions or anything" required>
+          <form:textarea class="form-control" rows="3" id="user_comment" placeholder="Comments, questions or anything"
+                         required="required" path="comments"/>
           </textarea>
         </div>
       </div>
@@ -43,5 +46,5 @@
         </div>
       </div>
 
-    </form>
+    </form:form>
 </fieldset>

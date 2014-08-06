@@ -51,7 +51,8 @@ public class AccountDaoImplTest {
         verify(jdbcTemplate).update(UPDATE_PASSWORD_SQL, PASSWORD, account.getUserName());
     }
 
-    @Test
+    //TODO
+    /*@Test
     @Ignore
     public void itShouldFindAccountByUsername() {
         when(sessionFactory.getCurrentSession()).thenReturn(sessionOther);
@@ -62,5 +63,5 @@ public class AccountDaoImplTest {
 
         Account account = accountDao.findByUsername(USERNAME);
         assertEquals(USERNAME, account.getUserName());
-    }
+    }*/
 }

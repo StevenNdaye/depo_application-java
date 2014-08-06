@@ -47,4 +47,12 @@
     <bean id="reCaptcha" class="net.tanesha.recaptcha.ReCaptchaImpl">
         <property name="privateKey" value="6Lem2vcSAAAAAFdeDYaqpcv-KC6XhJsFDh1hxvyy"></property>
     </bean>
+
+    <bean id="mailSender" class="org.springframework.mail.javamail.JavaMailSenderImpl">
+        <property name="host" value="smtp.gmail.com"/>
+    </bean>
+    <bean id="simpleMailMessage" class="org.springframework.mail.SimpleMailMessage">
+        <property name="from" value="stevenndaye@gmail.com"/>
+        <property name="subject" value="Depot Application Feedback"/>
+    </bean>
 </beans>

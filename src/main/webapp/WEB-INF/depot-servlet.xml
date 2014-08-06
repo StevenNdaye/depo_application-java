@@ -6,4 +6,5 @@
     <!-- Root Context: defines shared resources visible to all other web components -->
     <import resource="/spring/appServlet/application-context.xml" />
     <import resource="/spring/appServlet/security/security-context.xml" />
+    <import resource="/spring/appServlet/mailService/mail-service.xml" />
 </beans>
