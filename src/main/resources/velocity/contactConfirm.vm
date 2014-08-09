@@ -1,0 +1,16 @@
+<b>
+    [This e-mail was automatically generated. Please do not reply.]
+</b>
+Thank you for contacting Depot Application. This is an auto-generated response to let you know that we received your message.
+We typically respond within 24 hours.
+
+Thanks,
+
+Depot Application
+
+<b>Your message:</b>
+
+Name: ${feedback.fullName}
+E-mail: ${feedback.email}
+Date: ${feedback.date}
+${feedback.comments}

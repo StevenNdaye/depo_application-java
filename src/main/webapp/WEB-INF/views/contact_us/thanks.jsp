@@ -1,3 +1,8 @@
-<%@ taglib uri="http://www.springframework.org/tags" prefix="spring"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
-Oh wharts this...
+WHat is this?
+<div>
+    <p class="<c:out value="${class}"/>">
+        <strong><c:out value="${message}"/></strong>
+    </p>
+</div>

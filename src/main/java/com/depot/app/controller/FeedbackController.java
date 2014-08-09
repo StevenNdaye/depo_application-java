@@ -62,7 +62,8 @@ public class FeedbackController {
     }
 
     @RequestMapping(value = "/thank", method = RequestMethod.GET)
-    public String getThankPage(){
+    public String getThankPage(ModelMap modelMap){
+
         return THANKS_FORM;
     }
 
