@@ -2,14 +2,24 @@
 <%@ taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
 <%@ taglib prefix="tags" tagdir="/WEB-INF/tags" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="sping" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <%@ page session="false" %>
 
 <fieldset>
-    <legend>Please contact us</legend>
+    <legend>Contact us</legend>
+    <p><strong><em>Please use the form below to contact us with your ideas, issues, questions, general feedback or anything else.
+        We typically respond within one business day</em></strong></p>
+
     <p class="<c:out value="${class}"/>">
         <strong><c:out value="${message}"/></strong>
     </p>
-    <form:form class="form-horizontal" role="form" method="post" action="submitContactForm" modelAttribute="feedback">
+
+    <form:form class="form-horizontal" role="form" method="post" action="submit" modelAttribute="feedback">
+      <form:errors>
+          <div class="warning alert">
+              <spring:message code="error.global"/>
+          </div>
+      </form:errors>
       <div class="form-group">
         <label for="full_name" class="col-sm-2 control-label">Full Name</label>
         <div class="col-sm-10">

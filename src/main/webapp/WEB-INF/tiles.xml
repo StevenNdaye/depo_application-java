@@ -34,4 +34,10 @@
         <put-attribute name="pageTitle" value="Contact us" />
         <put-attribute name="body" value="/WEB-INF/views/contact_us/contact.jsp" />
     </definition>
+
+    <definition name="thanksForm" extends="master">
+        <put-attribute name="pageTitle" value="Thank you"/>
+        <put-attribute name="body" value="/WEB-INF/views/contact_us/thanks.jsp"/>
+    </definition>
+
 </tiles-definitions>

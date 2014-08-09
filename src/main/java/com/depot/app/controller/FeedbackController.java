@@ -1,6 +1,7 @@
 package com.depot.app.controller;
 
 import com.depot.app.model.Feedback;
+import com.depot.app.service.ContactService;
 import com.depot.app.service.EmailService;
 import net.tanesha.recaptcha.ReCaptcha;
 import net.tanesha.recaptcha.ReCaptchaResponse;
@@ -14,8 +15,10 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 
 import javax.servlet.ServletRequest;
+import java.util.Date;
 
 @Controller
+@RequestMapping("/contact")
 public class FeedbackController {
 
     public static final String CLASS = "class";
@@ -26,27 +29,45 @@ public class FeedbackController {
     public static final String BG_DANGER = "bg-danger";
     public static final String CONTACT_FORM = "contactForm";
     public static final String FEEDBACK_KEY = "feedback";
+    public static final String THANKS_FORM = "thanksForm";
 
     @Autowired
     private ReCaptcha reCaptcha;
     @Autowired
     private EmailService emailService;
+    @Autowired
+    private ContactService contactService;
 
-    @RequestMapping(value = "/contactus", method = RequestMethod.GET)
+    @RequestMapping(value = "/new", method = RequestMethod.GET)
     public String contactUs(ModelMap modelMap){
-        prepareForm(modelMap);
+        prepareFormForInput(modelMap);
         return CONTACT_FORM;
     }
 
 
-    @RequestMapping(value = "/submitContactForm", method = RequestMethod.POST)
+    @RequestMapping(value = "/submit", method = RequestMethod.POST)
     public String submitContactForm(@RequestParam("recaptcha_challenge_field") String challengeField,
                             @RequestParam("recaptcha_response_field") String responseField,
                             @ModelAttribute(value = FEEDBACK_KEY) Feedback feedback,
                             ServletRequest servletRequest, ModelMap modelMap, BindingResult result) {
+        if (result.hasErrors()){
+            result.reject("error.global");
+            return CONTACT_FORM;
+        }
+
+        handleCreationDate(feedback);
         handleReCaptcha(challengeField, responseField, servletRequest, modelMap, feedback);
-        prepareForm(modelMap);
-        return CONTACT_FORM;
+        prepareFormForInput(modelMap);
+        return "redirect:/contact/thank";
+    }
+
+    @RequestMapping(value = "/thank", method = RequestMethod.GET)
+    public String getThankPage(){
+        return THANKS_FORM;
+    }
+
+    private void handleCreationDate(Feedback feedback) {
+        feedback.setDate(new Date());
     }
 
     private boolean handleReCaptcha(String challengeField, String responseField, ServletRequest servletRequest, ModelMap modelMap, Feedback feedback) {
@@ -55,10 +76,15 @@ public class FeedbackController {
 
         if(reCaptchaResponse.isValid()){
             sendEmail(feedback);
+            saveFeedback(feedback);
             return validCaptcha(modelMap);
         }else{
             return invalidCaptcha(modelMap);
         }
+    }
+
+    private void saveFeedback(Feedback feedback) {
+        contactService.saveFeedback(feedback);
     }
 
     private void sendEmail(Feedback feedback) {
@@ -77,7 +103,7 @@ public class FeedbackController {
         return true;
     }
 
-    private void prepareForm(ModelMap modelMap) {
+    private void prepareFormForInput(ModelMap modelMap) {
         modelMap.addAttribute(FEEDBACK_KEY, new Feedback());
     }
 }

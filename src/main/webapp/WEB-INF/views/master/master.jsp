@@ -20,7 +20,7 @@
                 <li><a href="<c:url value="/" />"><spring:message code="side.home"/></a></li>
                 <li><a href=""><spring:message code="side.questions"/></a></li>
                 <li><a href=""><spring:message code="side.news"/>   </a></li>
-                <li><a href="<c:url value="/contactus" />"><spring:message code="side.contact"/></a></li>
+                <li><a href="<c:url value="/contact/new" />"><spring:message code="side.contact"/></a></li>
 
                 <security:authorize access="!isAuthenticated()">
                     <li><a href="<c:url value="/login" />"><spring:message code="side.login"/></a></li>
