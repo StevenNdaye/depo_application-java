@@ -50,28 +50,17 @@ public class FeedbackController {
                             @RequestParam("recaptcha_response_field") String responseField,
                             @ModelAttribute(value = FEEDBACK_KEY) Feedback feedback,
                             ServletRequest servletRequest, ModelMap modelMap, BindingResult result) {
-        if (result.hasErrors()){
-            result.reject("error.global");
-            return CONTACT_FORM;
-        }
 
         handleCreationDate(feedback);
-        handleReCaptcha(challengeField, responseField, servletRequest, modelMap, feedback);
         prepareFormForInput(modelMap);
-        return "redirect:/contact/thank";
-    }
-
-    @RequestMapping(value = "/thank", method = RequestMethod.GET)
-    public String getThankPage(ModelMap modelMap){
-
-        return THANKS_FORM;
+        return handleReCaptcha(challengeField, responseField, servletRequest, modelMap, feedback);
     }
 
     private void handleCreationDate(Feedback feedback) {
         feedback.setDate(new Date());
     }
 
-    private boolean handleReCaptcha(String challengeField, String responseField, ServletRequest servletRequest, ModelMap modelMap, Feedback feedback) {
+    private String handleReCaptcha(String challengeField, String responseField, ServletRequest servletRequest, ModelMap modelMap, Feedback feedback) {
         String remoteAddress = servletRequest.getRemoteAddr();
         ReCaptchaResponse reCaptchaResponse = this.reCaptcha.checkAnswer(remoteAddress, challengeField, responseField);
 
@@ -92,16 +81,16 @@ public class FeedbackController {
         emailService.send(feedback);
     }
 
-    private boolean invalidCaptcha(ModelMap modelMap) {
+    private String invalidCaptcha(ModelMap modelMap) {
         modelMap.addAttribute(MESSAGE, INVALID_MESSAGE);
         modelMap.addAttribute(CLASS, BG_DANGER);
-        return false;
+        return CONTACT_FORM;
     }
 
-    private boolean validCaptcha(ModelMap modelMap) {
+    private String validCaptcha(ModelMap modelMap) {
         modelMap.addAttribute(MESSAGE, VALID_MESSAGE);
         modelMap.addAttribute(CLASS, BG_SUCCESS);
-        return true;
+        return THANKS_FORM;
     }
 
     private void prepareFormForInput(ModelMap modelMap) {
