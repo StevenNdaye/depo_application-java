@@ -12,9 +12,14 @@ import org.springframework.mail.MailSender;
 import org.springframework.mail.SimpleMailMessage;
 import org.springframework.mail.javamail.JavaMailSender;
 
+import javax.mail.internet.MimeMessage;
+
+import java.util.Date;
+
 import static org.mockito.Matchers.any;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.verify;
+import static org.mockito.Mockito.when;
 
 /**
  * Created by steven on 2014/08/01.
@@ -27,31 +32,37 @@ public class EmailServiceTest {
     private EmailService emailService;
     private SimpleMailMessage simpleMailMessage;
     private VelocityEngine velocityEngine;
+    private MimeMessage mimeMailMessage;
 
     @Before
     public void setUp(){
         feedback = setUpFeedBack();
         setUpFeedBack();
         mailSender = mock(JavaMailSender.class);
+        mimeMailMessage = mock(MimeMessage.class);
         velocityEngine = mock(VelocityEngine.class);
         emailService = new EmailServiceImpl(mailSender, velocityEngine);
     }
 
     private Feedback setUpFeedBack() {
-        return new Feedback(){{
-            setFullName("Steven Ndaye");
-            setEmail("stevenndaye@gmail.com");
-            setComments("Comments");
-        }};
+        Feedback feedback = new Feedback();
+
+        feedback.setFullName("Steven Ndaye");
+        feedback.setEmail("stevenndaye@gmail.com");
+        feedback.setComments("Comments");
+        feedback.setDate(new Date());
+
+        return feedback;
     }
 
     @Test
-    @Ignore
     public void itShouldSendEmail(){
+        when(mailSender.createMimeMessage()).thenReturn(mimeMailMessage);
         emailService.send(feedback);
         simpleMailMessage = new SimpleMailMessage();
         setUpSimpleMailMessage();
         verify(mailSender).send(simpleMailMessage);
+        verify(mailSender).send(mimeMailMessage);
     }
 
     private void setUpSimpleMailMessage() {

@@ -7,4 +7,5 @@ import com.depot.app.model.Feedback;
  */
 public interface ContactService {
     public void saveFeedback(Feedback feedback);
+    Feedback getFeedback(Integer id);
 }

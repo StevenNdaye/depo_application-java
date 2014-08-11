@@ -7,4 +7,5 @@ import com.depot.app.model.Feedback;
  */
 public interface FeedbackDao{
     public void create(Feedback feedback);
+    Feedback getFeedback(Integer id);
 }

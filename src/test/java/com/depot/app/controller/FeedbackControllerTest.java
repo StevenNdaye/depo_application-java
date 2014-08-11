@@ -1,12 +1,17 @@
 package com.depot.app.controller;
 
+import com.depot.app.model.Feedback;
+import com.depot.app.service.EmailService;
 import net.tanesha.recaptcha.ReCaptchaImpl;
 import net.tanesha.recaptcha.ReCaptchaResponse;
 import net.tanesha.recaptcha.http.HttpLoader;
 import org.junit.Before;
 import org.junit.Test;
+import org.mockito.InjectMocks;
 import org.springframework.ui.ModelMap;
+import org.springframework.validation.BindingResult;
 
+import javax.servlet.ServletRequest;
 import java.util.HashMap;
 import java.util.Properties;
 
@@ -14,12 +19,16 @@ import static org.hamcrest.Matchers.is;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertThat;
 import static org.junit.Assert.assertTrue;
+import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.verify;
+import static org.mockito.Mockito.when;
 
 public class FeedbackControllerTest {
 
     private FeedbackController feedbackController;
     private ReCaptchaImpl reCaptcha;
     private MockHttpLoader mockHttpLoader;
+
 
     @Before
     public void setUp(){

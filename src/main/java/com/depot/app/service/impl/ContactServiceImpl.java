@@ -26,4 +26,9 @@ public class ContactServiceImpl implements ContactService {
     public void saveFeedback(Feedback feedback) {
         feedbackDao.create(feedback);
     }
+
+    @Override
+    public Feedback getFeedback(Integer id) {
+        return feedbackDao.getFeedback(id);
+    }
 }

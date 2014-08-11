@@ -18,4 +18,9 @@ public class FeedbackDaoImpl implements FeedbackDao{
     public void create(Feedback feedback) {
         this.sessionFactory.getCurrentSession().save(feedback);
     }
+
+    @Override
+    public Feedback getFeedback(Integer id) {
+        return (Feedback) this.sessionFactory.getCurrentSession().createQuery("from Feedback where id =" + id).list().get(0);
+    }
 }
